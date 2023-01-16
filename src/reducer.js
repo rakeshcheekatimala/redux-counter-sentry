@@ -1,7 +1,7 @@
 import { INCREMENT, DECREMENT, RESET } from './actions';
 
 let initalState = {
-  count: 50,
+  count: 30,
 };
 
 export const reducer = (state = initalState, action) => {
