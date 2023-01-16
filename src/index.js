@@ -7,7 +7,7 @@ import { store } from "./store";
 import App from "./App";
 
 Sentry.init({
-  dsn: "https://048088cc550246d2a298495cbfb4f327@o822351.ingest.sentry.io/4504508822519808",
+  dsn: "https://ad26fdd8233847baa9b6e2da63c346b0@o822351.ingest.sentry.io/4504513103265792",
   integrations: [new BrowserTracing()],
 
   // Set tracesSampleRate to 1.0 to capture 100%
